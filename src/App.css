@@ -1,0 +1,110 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  --black-font: #000;
+}
+
+.transaction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+}
+
+.transaction table {
+  /* border: 5px solid #fad; */
+  border-collapse: collapse;
+  margin: 0 auto;
+  color: var(--black-font);
+  line-height: 1.5rem;
+}
+
+.transaction table td,
+th {
+  border: 2px solid #000;
+  text-align: left;
+}
+
+table tr:nth-of-type(odd) {
+  background: #ddd;
+}
+
+table th {
+  background: #555;
+  color: #fff;
+}
+
+td, th {
+  padding: 10px;
+}
+
+.clear {
+  margin: 2rem 0 2rem;
+}
+
+.form-row {
+  text-align: left;
+  /* width: 50%; */
+  /* margin: 10px 0px; */
+}
+
+label {
+  margin-right: 0pt;
+  display: inline-block;
+  color: var(--black-font);
+
+}
+.form input {
+  word-wrap: break-word;
+  margin-top: 0.5rem;
+  width: 400px;
+  text-align: left;
+}
+
+.button {
+  width: auto;
+  margin-top: 20px;
+  text-align: center;
+  background-color: blue;
+  appearance: none;
+  border: none;
+  color: #fff;
+  padding: 0.6rem;
+  font-weight: bolder;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.transaction .form {
+  margin: 0 auto;
+}
+
+.transaction .search-form, .reset-form{
+  margin-bottom: 2rem;
+}
+
+.danger {
+  background-color: red;
+  color: white;
+}
+
+.btn-delete {
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: red;
+  appearance: none;
+  border: none;
+  color: #fff;
+  padding: 0.2rem;
+  font-weight: bolder;
+  border-radius: 50%;
+  font-size: 1rem;
+  vertical-align: middle;
+ 
+}
