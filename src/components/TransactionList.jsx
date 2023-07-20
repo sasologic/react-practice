@@ -1,5 +1,5 @@
 import React from "react";
-import data from "./transactions.js";
+import data from "../transactions.js";
 import { useState } from "react";
 import Transaction from "./Transaction.jsx";
 
