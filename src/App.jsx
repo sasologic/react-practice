@@ -1,10 +1,10 @@
-import Transaction from "./Transaction";
+import TransactionList from "./TransactionList";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <Transaction />
+      <TransactionList />
     </>
   );
 }
